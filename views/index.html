@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stock Search</title>
+</head>
+<body>
+  <h1>Search for a Public Company</h1>
+  <form action="/process" method="GET">
+    <input type="text" name="searchTerm" required placeholder="Enter ticker or name" />
+    <br/>
+    <label>
+      <input type="radio" name="searchType" value="ticker" checked /> Ticker
+    </label>
+    <label>
+      <input type="radio" name="searchType" value="name" /> Company Name
+    </label>
+    <br/>
+    <button type="submit">Search</button>
+  </form>
+</body>
+</html>
