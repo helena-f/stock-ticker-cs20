@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://helenacs20:bruh@cluster0.jsqkebq.mongodb.net/';
 const client = new MongoClient(uri);
 let collection;
 
